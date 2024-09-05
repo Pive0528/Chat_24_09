@@ -1,13 +1,13 @@
 package com.koreait.exam.chat_24_09;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootTest
-class Chat2409ApplicationTests {
+@SpringBootApplication
+public class Chat2409ApplicationTests {
 
-    @Test
-    void contextLoads() {
+    public static void main(String[] args) {
+        SpringApplication.run(Chat2409Application.class, args);
     }
 
 }
