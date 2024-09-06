@@ -24,11 +24,9 @@ public class ChatController {
     public record writeMessageRequest(String authorName, String content) {
     }
 
-
     public record writeMessageResponse(long id) {
 
     }
-
 
     @GetMapping("/writeMessage")
     @ResponseBody
